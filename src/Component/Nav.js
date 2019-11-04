@@ -9,12 +9,12 @@ import {
     NavLink
 } from 'reactstrap';
 
-/*const navstlye = css`
+const navstlye = css`
 color:white;
 `
 const navstlyeitem = css`
 color:white;
-`*/
+`
 const Example = (props) => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -23,7 +23,7 @@ const Example = (props) => {
     return (
         <div className="container-fluid">
             <Navbar color="" dark expand="xl">
-                <NavbarBrand href="/"><img src="/logo1.svg" width="200px" height="150px" /></NavbarBrand>
+                <NavbarBrand href="/"><img src="/images/Picture/ห่าน 1.png" width="200px" height="150px" /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className={navstlye} navbar>

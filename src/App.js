@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-const Nav = navbar(() => import('./components/Nav'));
+const Nav = lazy(() => import('./components/Nav'));
 
 function App() {
   return (
