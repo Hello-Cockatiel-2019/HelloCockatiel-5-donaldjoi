@@ -11,7 +11,10 @@ const Image = styled.img`
     -o-background-size: cover;
     /*background: url('/${props => props.source}') no-repeat fixed ; */
     background-size: cover;
-    height: 100%;                
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;                
 `
 
 class App extends React.Component {
@@ -20,7 +23,7 @@ class App extends React.Component {
       <div>
         <Container-fluid>
           <div>
-            <Image src="/background/cover.png" />
+            <Image src="/background/cover.png"  />
             <Navbar />
             <div>
             <Image src="/background/bg.png" />
