@@ -8,13 +8,6 @@
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
     "reactstrap": "^8.1.1",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    "style-component": "^0.0.1",
->>>>>>> 6f751eba9af7f121fa28d13e1bb07e4571d57b65
->>>>>>> 80fab65a32ad8e440555dd16e5b0f6e8464ae3e9
     "styled-components": "^4.4.1"
   },
   "scripts": {

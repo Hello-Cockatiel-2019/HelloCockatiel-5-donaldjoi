@@ -10,28 +10,9 @@ import {
     NavLink
 } from 'reactstrap';
 
-<<<<<<< HEAD
-const Navbar= (props) => {
-  return(<div>
-    <header className="Navbar">
-      <nav className="Navbar_Nav">
-      <div></div>
-      <div className="Navlogo"><a href="/">logo</a></div>
-      <div className="NavItem">
-        <ul>
-          <li><a href="/">HOME</a></li>
-          <li><a href="/">ABOUT</a></li>
-        </ul>
-      </div>
-      </nav>
-    </header>
-  </div>)
-};
-=======
 const navstlye = css`
 padding-right:200px;
 `
->>>>>>> 6f751eba9af7f121fa28d13e1bb07e4571d57b65
 
 const Example = (props) => {
     const [isOpen, setIsOpen] = useState(false);
