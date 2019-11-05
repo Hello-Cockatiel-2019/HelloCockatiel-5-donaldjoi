@@ -1,19 +1,54 @@
-import React from 'react';
-import './Nav.css';
+import React, { useState } from 'react';
+import { css } from 'styled-components';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink
+} from 'reactstrap';
 
-const Navbar= (props) => {
-    <header className="Navbar">
-      <nav className="Navbar_Nav">
-      <div></div>
-      <div className="Navlogo"><a href="/">logo</a></div>
-      <div className="NavItem">
-        <ul>
-          <li><a href="/">HOME</a></li>
-          <li><a href="/">ABOUT</a></li>
-        </ul>
-      </div>
-      </nav>
-    </header>
-};
+const navstlye = css`
+padding-right:200px;
+`
 
-export default Navbar;
+const Example = (props) => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+
+    return (
+        <div >
+            <Navbar color="dar" dark expand="xl">
+                <NavbarBrand href="/" ><img src="/images/picture/smalllogo.png" width="75px" height="50px" /></NavbarBrand>
+                <NavbarToggler onClick={toggle} />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav className={navstlye} navbar>
+                        <NavItem >
+                            <NavLink href="/components">HOME</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#">ABOUT </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#">GENDER</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#test">CATEGORY</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#test">OTHER</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#test">CONTACT US</NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
+        </div>
+    );
+}
+
+export default Example;
