@@ -2,6 +2,7 @@ import React from 'react';
 import './Nav.css';
 
 const Navbar= (props) => {
+  return(<div>
     <header className="Navbar">
       <nav className="Navbar_Nav">
       <div></div>
@@ -14,6 +15,7 @@ const Navbar= (props) => {
       </div>
       </nav>
     </header>
+  </div>)
 };
 
 export default Navbar;
