@@ -20,14 +20,13 @@ const Example = (props) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div >
-            <Navbar color="dar" dark expand="xl">
-                <NavbarBrand href="/" ><img src="/images/picture/smalllogo.png" width="75px" height="50px" /></NavbarBrand>
+            <Navbar expand="xl">
+                <NavbarBrand href="/" ><img className="img-fluid" src="/images/picture/smalllogo.png" width="75px" height="50px" /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className={navstlye} navbar>
+                    <Nav  navbar>
                         <NavItem >
-                            <NavLink href="/components">HOME</NavLink>
+                            <NavLink className="text-muted ml-4" href="/components">HOME</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="#">ABOUT </NavLink>
@@ -47,7 +46,6 @@ const Example = (props) => {
                     </Nav>
                 </Collapse>
             </Navbar>
-        </div>
     );
 }
 
