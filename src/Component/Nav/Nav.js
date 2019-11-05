@@ -1,6 +1,16 @@
-import React from 'react';
-import './Nav.css';
+import React, { useState } from 'react';
+import { css } from 'styled-components';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink
+} from 'reactstrap';
 
+<<<<<<< HEAD
 const Navbar= (props) => {
   return(<div>
     <header className="Navbar">
@@ -17,5 +27,47 @@ const Navbar= (props) => {
     </header>
   </div>)
 };
+=======
+const navstlye = css`
+padding-right:200px;
+`
+>>>>>>> 6f751eba9af7f121fa28d13e1bb07e4571d57b65
 
-export default Navbar;
+const Example = (props) => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
+
+    return (
+        <div >
+            <Navbar color="dar" dark expand="xl">
+                <NavbarBrand href="/" ><img src="/images/picture/smalllogo.png" width="75px" height="50px" /></NavbarBrand>
+                <NavbarToggler onClick={toggle} />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav className={navstlye} navbar>
+                        <NavItem >
+                            <NavLink href="/components">HOME</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#">ABOUT </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#">GENDER</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#test">CATEGORY</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#test">OTHER</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#test">CONTACT US</NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
+        </div>
+    );
+}
+
+export default Example;

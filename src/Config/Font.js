@@ -2,7 +2,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-    @font{
+    font{
         font-family: "Itim";
         font-style: normal;
         font-weight: bold;

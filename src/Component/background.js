@@ -6,9 +6,9 @@ const FixedBackground = styled.div`
   background-repeat:no-repeat;
   background-position: absolute;
   position:fixed;
-  background-size:.......;
-  background-image:url('/background/cover.jpggit');
-    @bg (max-width: 1440px){
+  background-size:cover;
+  background-image:url('/background/cover.jpg');
+    /*@bg (max-width: 1440px){
       background-image:url('/img/bg1.png');
     }
     @bg (max-width: 1440px) {
@@ -16,7 +16,7 @@ const FixedBackground = styled.div`
     }
     @bg (max-width: 1440px) {
         background-image:url('/img/bg3.png');
-      }
+      }*/
    
 `
 export default class background extends Component {

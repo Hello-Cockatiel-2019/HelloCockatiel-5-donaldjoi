@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.3.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
     "reactstrap": "^8.1.1",
+<<<<<<< HEAD
+=======
+    "style-component": "^0.0.1",
+>>>>>>> 6f751eba9af7f121fa28d13e1bb07e4571d57b65
     "styled-components": "^4.4.1"
   },
   "scripts": {
