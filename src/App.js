@@ -23,10 +23,14 @@ class App extends React.Component {
       <div>
         <Container-fluid>
           <div>
-            <Image src="/background/cover.png"  />
-            <Navbar />
+              <Image src="/background/cover.png"  />
+              <Navbar />
             <div>
-            <Image src="/background/bg.png" />
+              <Image src="/background/bg.png">
+              <Container>
+              
+              </Container>
+              </Image>
             </div>
             <Image src="/background/bg2.jpg" />
             <Image src="/background/bg3.png" />
