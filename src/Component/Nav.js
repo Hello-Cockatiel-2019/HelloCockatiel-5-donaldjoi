@@ -21,7 +21,7 @@ const Example = (props) => {
 
     return (
             <Navbar color="dark" dark expand="md" sticky="top">
-                <NavbarBrand href="/" ><img className="img-fluid" src="/images/picture/smalllogo.png" width="75px" height="50px" /></NavbarBrand>
+                <NavbarBrand href="/" ><img className="img-fluid" src="/images/smalllogo.png" width="75px" height="50px" /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav  navbar>

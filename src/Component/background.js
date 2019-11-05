@@ -1,28 +1,36 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
-const FixedBackground = styled.div`
-  width:100%;
-  height: 100vh;
-  background-repeat:no-repeat;
-  background-position: absolute;
-  position:fixed;
-  background-size:cover;
-  background-image:url('/background/cover.jpg');
-    /*@bg (max-width: 1440px){
-      background-image:url('/img/bg1.png');
-    }
-    @bg (max-width: 1440px) {
-      background-image:url('/img/bg2.png');
-    }
-    @bg (max-width: 1440px) {
-        background-image:url('/img/bg3.png');
-      }*/
-   
+
+
+const Image = styled.img`
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*background: url('/${props => props.source}') no-repeat fixed ; */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;                
 `
+
+
+  
 export default class background extends Component {
   render () {
     return (
-      <FixedBackground/>
+      <div>      
+        
+        <div className="row">
+        
+            <div className="col-md-8">
+            <Image src="/background/cover.png" />
+            </div>
+            <div className="col-md-4">
+                <img className="polaroid" src="/background/cgoose.png" />
+            </div>
+        </div>
+      </div>
     )
   }
 }
