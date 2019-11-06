@@ -15,8 +15,7 @@ const Box = styled.div`
 `
 
 const Boxin = styled.div`
-    background-color: white;
-    background : transparent;
+    background-color: rgba(227, 227, 227, 0.5);
     width:30em;
     height:10em;
     border-radius: 20px;
@@ -27,6 +26,7 @@ const Boxin = styled.div`
     padding-top:20px;
     padding-right:20px;
     padding-left:30px;
+    color: black;
 `
 const Textbox = (props) => {
     return (

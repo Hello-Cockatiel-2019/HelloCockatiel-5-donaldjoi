@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css'
 import Navbar from './Nav';
 import Textbox from './textbox';
 import styled from 'styled-components'
@@ -12,12 +13,12 @@ import Contact from './pages/contact';
 import Background from './background';
 import Overlay from './overlay';
 
+
 export default class index extends React.Component {
   render() {
     return (
       <div>
         <Background />
-        <Overlay />
         <Navbar />
         <About />
         <Category />

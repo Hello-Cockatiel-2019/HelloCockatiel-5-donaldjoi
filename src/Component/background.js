@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
+import Overlay from 'react-image-overlay'
 
 
 const Image = styled.img`
@@ -20,10 +21,17 @@ export default class background extends Component {
   render () {
     return (
       <div>             
-        <div className="row">
-            <Image src="/background/cover.png" />
-            <img className="cgoose" src="/background/cgoose.png" margin="0px 0px 0px 0px"/>
-        </div>
+        <Overlay 
+          url='/background/cover.png' 
+          overlayUrl='/background/cgoose.png'
+          imageHeight={1080}
+          imageWidth={1520}
+          position={'bottomRight'}
+          overlayWidth={250}
+          overlayHeight={400}
+          overlayPadding={60}
+          watermark={false}
+      />
       </div>
     )
   }

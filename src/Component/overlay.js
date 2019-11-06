@@ -8,8 +8,8 @@ export default class overlay extends Component {
   render () {
     return (
       <Overlay 
-          url='/background/cover.png' 
-          overlayUrl='/background/cgoose.png'
+          url=''//require 
+          overlayUrl=''//require
           imageHeight={1080}
           imageWidth={1520}
           position={'bottomRight'}
