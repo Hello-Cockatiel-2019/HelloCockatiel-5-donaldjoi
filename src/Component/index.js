@@ -22,9 +22,9 @@ export default class index extends React.Component {
         <Navbar />
         <About />
         <Category />
-        <Other />
-        <Other2 />
         <Gender />
+        <Other />
+        
       </div>
     )
   }

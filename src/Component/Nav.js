@@ -29,16 +29,16 @@ const Example = (props) => {
                             <NavLink className="text-muted ml-4" href="/components">HOME</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#">ABOUT </NavLink>
+                            <NavLink href="#About">ABOUT </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#">GENDER</NavLink>
+                            <NavLink href="#Category">CATEGORY</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#test">CATEGORY</NavLink>
+                            <NavLink href="#Gender">Gender</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#test">OTHER</NavLink>
+                            <NavLink href="#Other">OTHER</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
