@@ -9,9 +9,9 @@ import About from './pages/about';
 import Category from './pages/category';
 import Gender from './pages/gender';
 import Other from './pages/other';
+import Other2 from './pages/other2';
 import Contact from './pages/contact';
 import Background from './background';
-import Overlay from './overlay';
 
 
 export default class index extends React.Component {
@@ -23,6 +23,7 @@ export default class index extends React.Component {
         <About />
         <Category />
         <Other />
+        <Other2 />
         <Gender />
       </div>
     )

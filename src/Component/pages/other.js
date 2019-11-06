@@ -12,23 +12,23 @@ color: #000000;
 
 class About extends React.Component {
     render() {
-      return (
-        <div className="row">
-             <img className="about" src="/background/bg3.png" />
-            
-            <div className="col-lg-6">
-               
-                <Text>
-                <Textbox data="ห่านกินอะไร? หญ้าหรือผักชนิดต่างๆ เช่น รำข้าวหรือข้าวโพดป่น ถั่วเขียวหรือถั่วเหลืองป่น" />
-                </Text>
+        return (
+            <div className="bg3">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-6">
+                        <img className="wanted" src="/images/food.png" style={{position: 'absolute', zIndex: '1', width: '350px', height: '250px', marginTop: '225px',marginLeft: '600px'}}/>
+                            <Text style={{ position: 'absolute', zIndex: '0', marginTop: '600px', marginLeft: '100px' }}>
+                                <Textbox data="ห่านกินอะไร? หญ้าหรือผักชนิดต่างๆ เช่น รำข้าวหรือข้าวโพดป่น ถั่วเขียวหรือถั่วเหลืองป่น" />
+                            </Text>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="row">
-                <img className="food" src="/images/food.png" />
-            </div>
-        </div>
-        
-    )
+
+        )
     }
-  }
-  
-  export default About
+}
+
+export default About

@@ -28,18 +28,15 @@ class About extends React.Component {
                             หรือกำจัดวัชพืชในสวน 
                             และนำมาเลี้ยงเพื่อบริโภคเป็นอาหาร" />
                     </Text>
-                    <img className="smallgoose" src="/images/smallgoose.png" style={{position: 'absolute', zIndex: '1', width: '125px', height: '135px', marginTop: '850px',marginLeft: '125px'}}/>
                 </div>
                 <div className="col-md-1"></div>
                 <div className="col-md-5">
                     <img className="polaroid" src="/background/polaroid.png" style={{position: 'absolute', zIndex: '1', width: '550px', height: '600px', marginTop: '375px',marginLeft: '100px'}}/>
-                    
+                    <img className="jjgoose" src="/images/jjgoose.png" style={{position: 'absolute', zIndex: '2', width: '250px', height: '300px', marginTop: '375px',marginLeft: '180px'}}/>
                 </div>
-                
             </div>
             </div>
         </div>
-          
     )
     }
   }
