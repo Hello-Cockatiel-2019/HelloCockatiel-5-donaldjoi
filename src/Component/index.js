@@ -10,13 +10,14 @@ import Gender from './pages/gender';
 import Other from './pages/other';
 import Contact from './pages/contact';
 import Background from './background';
-
+import Overlay from './overlay';
 
 export default class index extends React.Component {
   render() {
     return (
       <div>
         <Background />
+        <Overlay />
         <Navbar />
         <About />
         <Category />
