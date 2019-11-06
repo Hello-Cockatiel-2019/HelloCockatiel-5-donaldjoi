@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Textbox from '../Textbox';
+import { Desktop, Mobile } from '../Responsive'
 
 const Text = styled.p`
 text-align: center;
@@ -13,6 +14,8 @@ color: #000000;
 class About extends React.Component {
     render() {
         return (
+            <div>
+              <Desktop>
             <div id={this.props.idd}>
             <div className="bg3">
                 <div className="container-fluid">
@@ -40,6 +43,8 @@ class About extends React.Component {
                 </div>
             </div>
         </div>
+        </div>
+        </Desktop>
         </div>
         )
     }

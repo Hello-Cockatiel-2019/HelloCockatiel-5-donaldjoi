@@ -2,7 +2,7 @@
   min-height: 130vh;
   background-image: url('/background/cover.png');
   background-size: cover;
-  background-position: center bottom;
+  background-position: fixed;
 }
 .bg {
   min-height: 130vh;

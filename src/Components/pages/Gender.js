@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Largebox from '../Largebox';
+import { Desktop, Mobile } from '../Responsive'
 
 const Text = styled.p`
 text-align: center;
@@ -13,6 +14,8 @@ color: #000000;
 class About extends React.Component {
     render() {
       return (
+        <div>
+              <Desktop>
         <div className="bg4" id={this.props.idd}>
             <div className="container-fluid">
             <div className="row"> 
@@ -26,7 +29,8 @@ class About extends React.Component {
                 </div>
               </div>
             </div>
-        
+        </Desktop>
+        </div>
       )
     }
   }

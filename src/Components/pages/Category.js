@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Textbox from '../Textbox';
+import { Desktop, Mobile } from '../Responsive'
 
 const Text = styled.p`
 text-align: center;
@@ -26,6 +27,8 @@ const Box = styled.div`
 class Category extends React.Component {
     render() {
       return (
+        <div>
+              <Desktop>
         <div className="bg2" id={this.props.idd}>
             <div className="container-fluid">
             <div className="row"> 
@@ -44,6 +47,8 @@ class Category extends React.Component {
                 </div>
               </div>
             </div>
+        </div>
+        </Desktop>
         </div>
       )
     }

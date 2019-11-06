@@ -15,6 +15,8 @@ color: #000000;
 class About extends React.Component {
     render() {
       return (
+          <div>
+              <Desktop>
         <div className="bg" id={this.props.idd}>
             <div className="container-fluid">
             <div className="row"> 
@@ -37,6 +39,8 @@ class About extends React.Component {
                 </div>
             </div>
             </div>
+        </div>
+        </Desktop>
         </div>
     )
     }

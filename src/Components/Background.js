@@ -20,6 +20,8 @@ const Image = styled.img`
 export default class background extends Component {
   render() {
     return (
+      <div>
+              <Desktop>
       <div className="cover " id={this.props.idd}>
         <div className="container-fluid">
           <div className="row">
@@ -31,6 +33,8 @@ export default class background extends Component {
             </div>
           </div>
         </div>
+      </div>
+      </Desktop>
       </div>
     )
   }
