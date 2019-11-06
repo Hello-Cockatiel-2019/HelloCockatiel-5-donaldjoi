@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Textbox from '../textbox';
+import Textbox from '../Textbox';
 
 const Text = styled.p`
 text-align: center;
@@ -23,10 +23,10 @@ const Box = styled.div`
     
 `
 
-class About extends React.Component {
+class Category extends React.Component {
     render() {
       return (
-        <div className="bg2">
+        <div className="bg2" id={this.props.idd}>
             <div className="container-fluid">
             <div className="row"> 
                 <div className="col-md-6">
@@ -49,4 +49,4 @@ class About extends React.Component {
     }
   }
   
-  export default About
+  export default Category

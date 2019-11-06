@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Textbox from '../textbox';
+import Textbox from '../Textbox';
 
 const Text = styled.p`
 text-align: center;

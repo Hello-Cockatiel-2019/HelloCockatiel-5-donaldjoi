@@ -13,7 +13,7 @@ color: #000000;
 class About extends React.Component {
     render() {
       return (
-        <div className="bg4">
+        <div className="bg4" id={this.props.idd}>
             <div className="container-fluid">
             <div className="row"> 
                 <div className="col-md-6">

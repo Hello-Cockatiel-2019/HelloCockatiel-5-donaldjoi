@@ -26,19 +26,19 @@ const Example = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav  navbar>
                         <NavItem >
-                            <NavLink className="text-muted ml-4" href="/components">HOME</NavLink>
+                            <NavLink href="#Background">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#About">ABOUT </NavLink>
+                            <NavLink href="#About">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#Category">CATEGORY</NavLink>
+                            <NavLink href="#Category">Category</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="#Gender">Gender</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#Other">OTHER</NavLink>
+                            <NavLink href="#Other">Other</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

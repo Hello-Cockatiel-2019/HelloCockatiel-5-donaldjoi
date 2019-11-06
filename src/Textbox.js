@@ -8,10 +8,6 @@ const Box = styled.div`
     border-radius: 35px;
     padding-top:22px;
     margin-top:76px;
-    /* margin-right:auto;
-    margin-left:auto;
-    opacity: 0.75; */
-    /* // filter: alpha(opacity=50); */
 `
 
 const Boxin = styled.div`

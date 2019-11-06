@@ -1,20 +1,30 @@
+.cover{
+  min-height: 130vh;
+  background-image: url('/background/cover.png');
+  background-size: cover;
+  background-position: center bottom;
+}
 .bg {
-  background: url('/background/bg.png') no-repeat;
-  width: 1520px;
-  height: 1080px;
+  min-height: 130vh;
+  background-image: url('/background/bg.png');
+  background-size: cover;
+  background-position: center bottom;
 }
 .bg2 {
-  background: url('/background/bg.png') no-repeat;
-  width: 1520px;
-  height: 1080px;
+  min-height: 130vh;
+  background-image: url('/background/bg3old.png');
+  background-size: cover;
+  background-position: center bottom;
 }
 .bg3 {
-  background: url('/background/bg.png') no-repeat;
-  width: 1520px;
-  height: 1080px;
+  min-height: 130vh;
+  background-image: url('/background/bg3.png');
+  background-size: cover;
+  background-position: center bottom;
 }
 .bg4 {
-  background: url('/background/bg.png') no-repeat;
-  width: 1520px;
-  height: 1080px;
+  min-height: 130vh;
+  background-image: url('/background/bg4.png');
+  background-size: cover;
+  background-position: center bottom;
 }
