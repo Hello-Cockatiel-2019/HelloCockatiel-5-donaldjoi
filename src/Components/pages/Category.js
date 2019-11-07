@@ -27,7 +27,7 @@ const Box = styled.div`
 class Category extends React.Component {
     render() {
       return (
-        <div>
+        
               <Desktop>
         <div className="bg2" id={this.props.idd}>
             <div className="container-fluid">
@@ -49,7 +49,7 @@ class Category extends React.Component {
             </div>
         </div>
         </Desktop>
-        </div>
+      
       )
     }
   }
