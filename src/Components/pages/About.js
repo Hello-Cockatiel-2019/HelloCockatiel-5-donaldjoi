@@ -35,7 +35,7 @@ class About extends React.Component {
                 <div className="col-md-1"></div>
                 <div className="col-md-5">
                     <img className="polaroid" src="background/polaroid.png" style={{position: 'absolute', zIndex: '1', width: '550px', height: '600px', marginTop: '365px',marginLeft: '100px'}}/>
-                    <img className="jjgoose" src="images/JGoose.png" style={{position: 'absolute', zIndex: '2', width: '250px', height: '300px', marginTop: '365px',marginLeft: '180px'}}/>
+                    <img className="jjgoose" src="/images/JGoose.png" style={{position: 'absolute', zIndex: '2', width: '250px', height: '300px', marginTop: '365px',marginLeft: '180px'}}/>
                 </div>
             </div>
             </div>
