@@ -1,22 +1,30 @@
-.App {
-  text-align: center;
+.cover{
+  min-height: 130vh;
+  background-image: url("/background/cover.png");
+  background-size: cover;
+  background-position: fixed;
 }
-
-.App-logo {
-  height: 40vmin;
+.bg {
+  min-height: 130vh;
+  background-image: url("/background/bg.png");
+  background-size: cover;
+  background-position: fixed;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg2 {
+  min-height: 130vh;
+  background-image: url("/background/bg2.png");
+  background-size: cover;
+  background-position: center center;
 }
-
-.App-link {
-  color: #09d3ac;
+.bg3 {
+  min-height: 130vh;
+  background-image: url("/background/bg3.png");
+  background-size: cover;
+  background-position: center bottom;
+}
+.bg4 {
+  min-height: 130vh;
+  background-image: url("/background/bg4.png");
+  background-size: cover;
+  background-position: center bottom;
 }
