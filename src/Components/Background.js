@@ -20,22 +20,24 @@ const Image = styled.img`
 export default class background extends Component {
   render() {
     return (
-      <div>
-              <Desktop>
+      
+      
+      <div><Desktop>
       <div className="cover " id={this.props.idd}>
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-6">
               <div className="col-md-1"></div>
               <div className="col-md-5">
-              </div>
               <img className="cgoose" src="/background/cgoose.png" style={{ position: 'absolute', zIndex: '1', width: '450px', height: '500px', marginTop: '525px', marginLeft: '850px' }} />
+              </div>
             </div>
           </div>
         </div>
       </div>
       </Desktop>
       </div>
+      
     )
   }
 }

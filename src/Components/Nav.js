@@ -9,6 +9,7 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
+import { Desktop } from './Responsive';
 
 const navstlye = css`
 padding-right:200px;
@@ -20,6 +21,7 @@ const Example = (props) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
+        <Desktop>
             <Navbar color="dark" dark expand="md" sticky="top">
                 <NavbarBrand href="/" ><img className="img-fluid" src="/images/smalllogo.png" width="75px" height="50px" /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
@@ -43,6 +45,7 @@ const Example = (props) => {
                     </Nav>
                 </Collapse>
             </Navbar>
+            </Desktop>
     );
 }
 

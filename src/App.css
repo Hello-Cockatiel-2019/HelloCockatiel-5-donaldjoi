@@ -8,13 +8,13 @@
   min-height: 130vh;
   background-image: url('/background/bg.png');
   background-size: cover;
-  background-position: center bottom;
+  background-position: fixed;
 }
 .bg2 {
   min-height: 130vh;
   background-image: url('/background/bg3old.png');
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
 }
 .bg3 {
   min-height: 130vh;
