@@ -1,6 +1,6 @@
 .cover{
   min-height: 130vh;
-  background-image: url('/background/cover.png');
+  background-image: url('/background/bg.png');
   background-size: cover;
   background-position: fixed;
 }
