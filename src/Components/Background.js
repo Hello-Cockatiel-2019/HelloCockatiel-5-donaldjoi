@@ -29,7 +29,7 @@ export default class background extends Component {
             <div className="col-md-6">
               <div className="col-md-1"></div>
               <div className="col-md-5">
-              <img className="cgoose" src="background/cgoose.png" style={{ position: 'absolute', zIndex: '1', width: '450px', height: '500px', marginTop: '525px', marginLeft: '850px' }} />
+              <img className="cgoose" src="../../public/background/cgoose.png" style={{ position: 'absolute', zIndex: '1', width: '450px', height: '500px', marginTop: '525px', marginLeft: '850px' }} />
               </div>
             </div>
           </div>

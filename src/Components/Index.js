@@ -9,7 +9,6 @@ import About from './pages/About';
 import Category from './pages/Category';
 import Gender from './pages/Gender';
 import Other from './pages/Other';
-import Other2 from './pages/Other2';
 import Background from './Background';
 import { Desktop, Mobile } from './Responsive'
 

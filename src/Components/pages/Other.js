@@ -21,7 +21,7 @@ class About extends React.Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6">
-                        <img className="wanted" src="images/Food.png" style={{position: 'absolute', zIndex: '1', width: '350px', height: '250px', marginTop: '225px',marginLeft: '600px'}}/>
+                        <img className="wanted" src="../../../public/images/Food.png" style={{position: 'absolute', zIndex: '1', width: '350px', height: '250px', marginTop: '225px',marginLeft: '600px'}}/>
                             <Text style={{ position: 'absolute', zIndex: '0', marginTop: '550px', marginLeft: '100px' }}>
                                 <Textbox data="ห่านกินอะไร? หญ้าหรือผักชนิดต่างๆ เช่น รำข้าวหรือข้าวโพดป่น ถั่วเขียวหรือถั่วเหลืองป่น" />
                             </Text>

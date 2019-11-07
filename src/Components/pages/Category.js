@@ -33,7 +33,7 @@ class Category extends React.Component {
             <div className="container-fluid">
             <div className="row"> 
                 <div className="col-md-6">
-                <img className="wanted" src="images/Wanted.png" style={{position: 'absolute', zIndex: '1', width: '300px', height: '350px', marginTop: '150px',marginLeft: '600px'}}/>
+                <img className="wanted" src="../../../public/images/Wanted.png" style={{position: 'absolute', zIndex: '1', width: '300px', height: '350px', marginTop: '150px',marginLeft: '600px'}}/>
                     <Text style={{position: 'absolute', zIndex: '0', marginTop: '550px',marginLeft: '350px'}}>
                         <Textbox data="ประเภทของห่าน 
                         1. Toulous 
